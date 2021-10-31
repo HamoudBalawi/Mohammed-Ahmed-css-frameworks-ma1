@@ -1,0 +1,27 @@
+  .navbar {
+    background-color: getColors(primary); 
+  }
+
+.navbar-dark .navbar-brand {
+    font-family: "Opan Sans", sans-serif;
+    font-size: 32px;
+    color:getColors(black-color);
+    color:getColors(black-color);
+  ;
+}
+  .navbar-dark .navbar-nav .nav-link {
+    color:getColors(grey-color) ;
+    font-size: 15px;
+    
+
+  }
+  .nav-item a{
+    color:getColors(light-black-color);
+  }
+  .navbar-dark .navbar-nav .active > .nav-link {
+    color: getColors(rose-color);
+  }
+  
+  .navbar-collapse {
+    z-index: 1;
+  }

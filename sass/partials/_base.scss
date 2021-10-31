@@ -1,0 +1,48 @@
+body {
+    background-color:getColors(backgroundcolor);
+    display: flex;
+    flex-direction: column;
+  }
+  html, body {
+    height: 100%;
+  }
+  .wrapper {
+  
+    flex: 1 0 auto;
+
+  }
+  .container h1 {
+    color:getColors(ligt-black); 
+    font-family:"Open Sans", sans-serif;;
+    font-size: 25px;
+    font-weight: 300;
+    text-align: center;
+    padding: 20px 0;
+  }
+  .row {
+    max-width: 1200px;
+    margin: 0px auto;
+  }
+  .row div {
+    background-color: getColors(primary);
+    width: 250px;
+    height: 250px;
+    margin: 20px auto;
+ 
+    border-radius: 10px;
+    &.square3 {
+      background-color: white;
+       border: 3px solid getColors(rose-color);
+    }
+
+    &.square6 {
+      background-color:getColors(rose-color);
+       border: 3px solid  getColors(white-color);
+    }
+    &.square8 {
+      background-color:getColors(white-color      );
+      border: 3px solid  getColors(rose-color);
+   }
+  }
+  
+  
